@@ -1,0 +1,23 @@
+/**
+ * Author: davibq@gmail.com;
+ * General Styles for crautos
+ */
+
+#popup {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	background-color: #FF9933;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#popup div {
+	display: inline-block;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 5px;
+	background-color: #ffffff;
+	color: #4b4846;
+}

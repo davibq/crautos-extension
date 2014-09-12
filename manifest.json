@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "CRAUTOS hover information",
+  "description": "Popup for crautos page",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://crautos.com/usados/economicos-usearch2.cfm*"
+      ],
+      "js": [
+        "js/jquery-2.1.1.min.js",
+        "js/main.js"
+      ],
+      "css": [
+        "css/styles.css"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "http://crautos.com/usados/economicos-usearch2.cfm*"
+  ]
+}
